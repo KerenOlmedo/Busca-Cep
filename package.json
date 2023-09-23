@@ -1,0 +1,17 @@
+{
+  "name": "busca-cep",
+  "description": "API + Front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kéren Olmedo",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon backEnd/index.js"
+  },
+  "dependencies": {
+    "axios": "1.5.0",
+    "bootstrap": "5.3.2",
+    "cors": "2.8.5",
+    "express": "4.18.2"
+  }
+}
