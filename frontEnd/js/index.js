@@ -36,7 +36,7 @@ function inputValue() {
 }
 
 async function axiosGet(cep) {
-  const {status, data} = await axios.get(`http://localhost:3002/buscaCEP/${cep}`)
+  const {status, data} = await axios.get(`http://localhost:3000/buscaCEP/${cep}`)
               .then((res) => {
                 return res
               })

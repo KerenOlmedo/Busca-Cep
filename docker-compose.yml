@@ -1,0 +1,15 @@
+version: '3'
+services:
+  node-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+
+  nginx:
+    image: nginx
+    volumes:
+      - ./frontEnd:/usr/share/nginx/html
+    ports:
+      - "80:80"

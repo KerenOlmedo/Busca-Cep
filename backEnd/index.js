@@ -7,7 +7,7 @@ const cors = require('cors')
 const app = express()
 app.use(express.json())
 app.use(cors())
-const port = 3002
+const port = 3000
 
 app.get('/buscaCEP/:cep', async(req, res) => {
   const {cep} = req.params
