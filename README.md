@@ -20,13 +20,13 @@ O objetivo da aplicação é permitir que os usuários insiram um CEP (Código d
 
 - Abra um terminal ou prompt de comando.
 
-- Navegue até o diretório raiz do seu projeto, onde está localizado o arquivo docker-compose.yml e o diretório my-app.
+- Navegue até o diretório raiz do seu projeto, onde está localizado o arquivo docker-compose.yml.
 
 - Execute o seguinte comando para construir as imagens dos contêineres e iniciar os serviços:
 ```
 docker-compose up
 ```
-O Node.js estará acessível em http://localhost:3000, e o servidor Nginx servirá o arquivo index.html em http://localhost na porta 80 como definido no docker-compose. Portanto:
+O servidor Nginx servirá o arquivo index.html em http://localhost na porta 80 como definido no docker-compose. Portanto:
 - Acesse seu navegador e navegue na aplicação com o endereço:
 ```
 http://localhost:80
